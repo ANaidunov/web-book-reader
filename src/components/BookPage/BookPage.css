@@ -1,0 +1,20 @@
+#book-page {
+  width: 60%;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 0.2vw 0.5vw;
+  border-radius: 0.7vw;
+  text-align: justify;
+}
+
+#book-page[theme="light"]{
+  background-color: white;
+  color: black;
+  box-shadow: 0 0 5px rgb(63, 63, 63);
+}
+
+#book-page[theme="dark"]{
+  background-color: rgb(48, 48, 48);
+  color: #d3d3d3;
+  box-shadow: 0 0 10px rgb(27, 27, 27);
+}

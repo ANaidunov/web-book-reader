@@ -1,0 +1,57 @@
+#left-toolbar-container{
+    height: 100vh;
+    width: 3.5vw;
+
+    float: left;
+}
+
+#settings-toolbar{
+    width: 3.5vw;
+    height: 13.7vw;
+    border-radius: 0.5vw;
+
+    text-align: center;
+
+    position: fixed;
+    bottom: 37%;
+}
+
+#settings-toolbar[theme="light"]{
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(77, 77, 77);
+}
+
+#settings-toolbar[theme="dark"]{
+    background-color: #2e2e2e;
+    box-shadow: 0 0 10px rgb(17, 17, 17);
+}
+
+#sync-switch-icon{
+    padding-top: 0.4vw;
+}
+#theme-icon{
+    padding-top: 0.2vw;
+}
+
+.toolbar-button{
+    font-size: 3vw; 
+}
+
+.toolbar-button[theme="light"]{
+    color: #0077ff;
+}
+.toolbar-button[theme="light"]:hover{
+    color: #134ce9;
+}
+
+.toolbar-button[theme="dark"]{
+    color: #777777;
+}
+
+.toolbar-button[theme="dark"]:hover{
+    color: #9c9c9c;
+}
+
+#increase-font-icon, #decrease-font-icon {
+    font-size: 3.429vw;
+}
